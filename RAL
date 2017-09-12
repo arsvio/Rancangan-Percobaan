@@ -1,7 +1,0 @@
-Rancangan Acak Lengkap (RAL)
-
-RAL merupakan rancangan paling sederhana di antara rancangan-rancangan percobaan baku. Penggunaan RAL akan tepat dalam kasus: bahan percobaan homogen atau relatif homogen dan jumlah perlakuan terbatas. 
-
-Terdapat dua macam RAL: 1) RAL dengan ulangan yang sama, 2) RAL dengan ulangan yang berbeda. Selanjutnya akan digunakan notasi r untuk ulagan dan t untuk perlakuan. 
-
-Perhitungan RAL meliputi perhitungan jumlah kuadrat yaitu Jumlah Kuadrat Total (JKT), Jumlah Kuadrat Perlakuan (JKP), dan Jumlah Kuadrat Galat (JKG). Lebih lengkapnya, formula yang digunakan dalam RAL dapat dijumpai di: https://arumprimandari.files.wordpress.com/2017/09/course-1_rancangan-acak-lengkap.pdf.
