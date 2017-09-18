@@ -4,7 +4,7 @@
 #kadar merupakan nilai observasi 
 
 perlakuan=c(rep('A',5),rep('B',5),rep('C',5),rep('D',5),rep('E',5))
-kadar=c(7,6,9,4,7,9,7,8,6,9,5,4,8,6,3,3,5,2,3,7,2,3,4,1,4)
+kadar=c(7,6,9,4,7,9,7,8,6,9,5,4,8,6,3,3,5,3,3,7,2,3,4,1,4)
 paracetamol = data.frame(perlakuan,kadar)
 
 plot(kadar~perlakuan, data = paracetamol)
