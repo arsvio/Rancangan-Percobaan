@@ -8,5 +8,14 @@ respon = c(2,3,3,5,5,4,5,5,8,7,10,9,6,5,5,2)
 
 percobaan = data.frame(perlakuan, kelompok, respon)
 
-result = aov(respon~perlakuan+kelompok, data = percobaan)
-summary(result)
+hasil = aov(respon~perlakuan+kelompok, data = percobaan)
+summary(hasil)
+
+# Box plot respon VS perlakuan dan kelompok
+par(mfrow = c(1,2))
+plot(respon~perlakuan, data = percobaan)
+plot(respon~kelompok, data = percobaan)
+
+# Uji perbandingan ganda
+TukeyHSD(hasil, ordered = TRUE, "perlakuan")
+plot(TukeyHSD(hasil, ordered = TRUE, "perlakuan"))
